@@ -44,6 +44,8 @@ body{
 .grid3{
     grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
     /* 100px is min value and 1fr is max value */
+    justify-content: center;
+    align-items: center;
 
 }
 
