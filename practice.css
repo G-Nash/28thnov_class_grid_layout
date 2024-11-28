@@ -3,7 +3,7 @@ body{
     color: white;
 }
 
-.grid, .grid2, .grid3{
+.grid, .grid2, .grid3, .grid4{
     border: solid white;
     display: grid;
     max-width: 80vw;
@@ -41,13 +41,8 @@ body{
     border-radius: 10px;
 }
 
-#gridItem21{
-    grid-column-start: 1;
-    grid-column-end: 3;
-}
-
 .grid3{
-    grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
     /* 100px is min value and 1fr is max value */
     justify-content: center;
     align-items: center;
@@ -61,4 +56,20 @@ body{
     text-align: center;
     padding: 5px;
     border-radius: 10px;
+}
+
+.gridItem4{
+    background-color: lightgreen;
+    border: solid white 0.1px;
+    color: black;
+    text-align: center;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+#gridItem41{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
 }
