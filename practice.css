@@ -21,7 +21,7 @@ body{
 
 .gridItem{
     background-color: red;
-    border: solid cyan 0.1px;
+    border: solid white 0.1px;
     padding: 5px;
     text-align: center;
     border-radius: 10px;
@@ -35,7 +35,7 @@ body{
 
 .gridItem2{
     background-color: cyan;
-    border: solid red 0.1px;
+    border: solid white 0.1px;
     color: black;
     text-align: center;
     padding: 5px;
