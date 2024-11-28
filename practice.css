@@ -28,7 +28,7 @@ body{
 
 .grid2{
     grid-template-rows: 1fr 20%;
-    height: 20vh;
+    height: 25vh;
     grid-template-columns: 70% 30%;
 }
 
@@ -42,7 +42,9 @@ body{
 }
 
 .grid3{
-    grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+    /* 100px is min value and 1fr is max value */
+
 }
 
 .gridItem3{
