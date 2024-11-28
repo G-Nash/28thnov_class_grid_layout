@@ -3,7 +3,7 @@ body{
     color: white;
 }
 
-.grid, .grid2{
+.grid, .grid2, .grid3{
     border: solid white;
     display: grid;
     max-width: 80vw;
@@ -14,6 +14,8 @@ body{
     grid-template-columns: 50% 50%;
     border-radius: 10px;
     gap: 5px;
+    /* align-items: center; */
+    justify-content: center;
 }
 
 .gridItem{
@@ -37,6 +39,17 @@ body{
     text-align: center;
     padding: 5px;
     border-radius: 10px;
-
 }
 
+.grid3{
+    grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+}
+
+.gridItem3{
+    background-color: teal;
+    border: solid white 0.1px;
+    color: black;
+    text-align: center;
+    padding: 5px;
+    border-radius: 10px;
+}
