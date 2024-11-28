@@ -1,0 +1,39 @@
+body{
+    background-color: black;
+    color: white;
+}
+
+.grid, .grid2{
+    border: solid white;
+    display: grid;
+    max-width: 80vw;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10vh;
+    padding: 10px;
+    grid-template-columns: 50% 50%;
+    border-radius: 10px;
+}
+
+.gridItem{
+    background-color: red;
+    border: solid cyan 0.1px;
+    padding: 5px;
+    text-align: center;
+    /* border-radius: 10px; */
+}
+
+.grid2{
+    grid-template-rows: 1fr 20%;
+    height: 20vh;
+    grid-template-columns: 70% 30%;
+}
+
+.gridItem2{
+    background-color: cyan;
+    border: solid red 0.1px;
+    color: black;
+    text-align: center;
+    padding: 5px;
+}
+
