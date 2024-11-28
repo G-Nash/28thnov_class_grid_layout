@@ -3,7 +3,7 @@ body{
     color: white;
 }
 
-.grid, .grid2, .grid3, .grid4{
+.grid, .grid2, .grid3, .grid4, .grid5{
     border: solid white;
     display: grid;
     max-width: 80vw;
@@ -70,6 +70,34 @@ body{
 #gridItem41{
     grid-column-start: 1;
     grid-column-end: 3;
-    grid-row-start: 1;
-    grid-row-end: 2;
+    grid-row-start: 3;
+    /* grid-row-end: 3; */
+}
+
+.grid5{
+    grid-template-columns: 33% 33% 33%;
+
+}
+
+.gridItem5{
+    background-color: lightskyblue;
+    border: solid white 0.1px;
+    color: black;
+    text-align: center;
+    padding: 5px;
+    border-radius: 10px;
+    /* grid-template-columns: 100px 100px; */
+}
+
+#gridItem51, #gridItem56{
+    grid-column: 1/4;
+}
+
+#gridItem52{
+    grid-row:2/4 ;
+}
+
+#gridItem54{
+    grid-row: 2/4;
+    grid-column: 3/3;
 }
